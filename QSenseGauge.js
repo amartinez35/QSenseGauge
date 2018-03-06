@@ -190,8 +190,6 @@ define(["./radialProgress", "./d3.min", "css!./QSenseGauge.css", "qlik"],
           var measureName2 = hc.qMeasureInfo[1].qFallbackTitle.substr(0, 13) + tooLong + hc.qDataPages[0].qMatrix[0][1].qText;
         }
 
-        console.log(layout);
-
 
         //couleur arc 1 et 2
         var colorAcr1 = layout.Arc1.color;
