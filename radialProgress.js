@@ -141,7 +141,6 @@ function radialProgress(parent, width, height, colors, image, labelOK) {
         .attr("height", _height / 4)
         .attr("xlink:href", image);
 
-			console.log(labelOK[0]);
 			
 			if(labelOK[0]){ 
 			  label.enter().append("text")

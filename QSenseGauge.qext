@@ -1,14 +1,14 @@
 {
 	"name" : "QSense Gauge",
 	"description" : "QSense dual gauge",
-	"icon" : "gauge-chart",
+	"icon" : "text icon-image-excelcio",
 	"type" : "visualization",
 	"version": "1.0.2",
 	"author": "Excelcio",
 	"homepage" : "http://excelcio.com/",
 	"keywords" : "qlik-sense, visualization",
-    "preview" : "qsense_gauge.png",
+  "preview" : "qsense_gauge.png",
 	"license" : "",
 	"repository" : "https://github.com/amartinez35/QSenseGauge",
-    "dependencies" : { "qlik-sense" : ">=3.2.x" }
+  "dependencies" : { "qlik-sense" : "Feb 2018" }
 }
