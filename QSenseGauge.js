@@ -112,7 +112,7 @@ define(["./radialProgress", "./d3.min", "css!./QSenseGauge.css", "qlik"],
           measures: {
             uses: "measures",
             min: 1,
-            max: 2
+            max: 3
           },
           Setting: {
             uses: "settings",
