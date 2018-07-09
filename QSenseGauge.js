@@ -281,7 +281,7 @@ define(["./radialProgress", "./d3.min", "css!./QSenseGauge.css", "qlik"],
 
         var iconGauge = layout.iconGauge;
         //Création de la jauge
-        var rad1 = radialProgress(div, width, height, [colorAcr1, colorAcr2,colorAcr3, colorAcr4], iconGauge, [layout.affichage1, layout.affichage2,layout.affichage3, layout.affichage4])
+        var rad1 = radialProgress(div, width, height, [colorAcr1, colorAcr2], iconGauge, [layout.affichage1, layout.affichage2,layout.affichage3, layout.affichage4])
           .value(value)
           .value2(value2)
 //	  .value3(value3)
