@@ -284,16 +284,16 @@ var ColorArc3 = {
         var rad1 = radialProgress(div, width, height, [colorAcr1, colorAcr2,colorAcr3, colorAcr4], iconGauge, [layout.affichage1, layout.affichage2,layout.affichage3, layout.affichage4])
           .value(value)
           .value2(value2)
-	  .value3(value3)
-          .value4(value4)
+//	  .value3(value3)
+//        .value4(value4)
           .label(measureName)
           .label2(measureName2)
-	  .label3(measureName3)
-          .label4(measureName4)
+//	  .label3(measureName3)
+//          .label4(measureName4)
           .maxValue(layout.limite1)
           .maxValue2(layout.limite2)
-	  .maxValue3(layout.limite3)
-          .maxValue4(layout.limite4)
+//	  .maxValue3(layout.limite3)
+//          .maxValue4(layout.limite4)
           .render();
         //console.log(qlik.Promise.resolve());
         return qlik.Promise.resolve();
