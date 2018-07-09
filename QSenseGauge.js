@@ -39,7 +39,7 @@ define(["./radialProgress", "./d3.min", "css!./QSenseGauge.css", "qlik"],
         color: "#545352"
       }
     };
-var ColorArc3 = {
+/*var ColorArc3 = {
       ref: "Arc3",
       type: "object",
       component: "color-picker",
@@ -59,7 +59,7 @@ var ColorArc3 = {
         index: 4,
         color: "#545352"
       }
-    };
+    };*/
 
     var limite1 = {
       ref: "limite1",
@@ -75,7 +75,7 @@ var ColorArc3 = {
       expression: "always",
       defaultValue: 100
     };
-    var limite3 = {
+    /*var limite3 = {
       ref: "limite3",
       type: "integer",
       label: "Limite arc 3",
@@ -88,7 +88,7 @@ var ColorArc3 = {
       label: "Limite arc 4",
       expression: "always",
       defaultValue: 100
-    };
+    };*/
 
     var imageGauge = {
       label: "Icon de la jauge",
@@ -127,7 +127,7 @@ var ColorArc3 = {
 				}],
       defaultValue: true
     };
-    var affichageMesure3 = {
+   /* var affichageMesure3 = {
       type: "boolean",
       component: "switch",
       label: "Afficher la mesure 3",
@@ -155,7 +155,7 @@ var ColorArc3 = {
         label: "Off"
 				}],
       defaultValue: true
-    };
+    };*/
 
     //définition de l'objet
     return {
@@ -188,13 +188,13 @@ var ColorArc3 = {
                 items: {
                   Colors1: ColorArc1,
                   Colors2: ColorArc2,
-		  Colors3: ColorArc3,
-                  Colors4: ColorArc4,
+		  /*Colors3: ColorArc3,
+                  Colors4: ColorArc4,*/
                   MediaGauge: imageGauge,
                   affichage1: affichageMesure1,
-                  affichage2: affichageMesure2,
-		  affichage3: affichageMesure3,
-                  affichage4: affichageMesure4
+                  affichage2: affichageMesure2
+		  /*affichage3: affichageMesure3,
+                  affichage4: affichageMesure4*/
                 }
               },
               Limite: {
@@ -203,9 +203,9 @@ var ColorArc3 = {
                 label: "Limites",
                 items: {
                   limite1: limite1,
-                  limite2: limite2,
-		  limite3: limite3,
-                  limite4: limite4
+                  limite2: limite2
+		 /* limite3: limite3,
+                  limite4: limite4*/
                 }
               }
             }
@@ -255,29 +255,29 @@ var ColorArc3 = {
           if (hc.qMeasureInfo[1].qFallbackTitle.length > 13) {
             tooLong = '... ';
           }
-	  if (hc.qMeasureInfo[2].qFallbackTitle.length > 13) {
+	 /* if (hc.qMeasureInfo[2].qFallbackTitle.length > 13) {
             tooLong = '... ';
           }
 	  if (hc.qMeasureInfo[3].qFallbackTitle.length > 13) {
             tooLong = '... ';
-          }
+          }*/
 
           var value2 = hc.qDataPages[0].qMatrix[0][1].qNum;
           var measureName2 = hc.qMeasureInfo[1].qFallbackTitle.substr(0, 13) + tooLong + hc.qDataPages[0].qMatrix[0][1].qText;
           
-	  var measureName3 = hc.qMeasureInfo[2].qFallbackTitle.substr(0, 13) + tooLong + hc.qDataPages[0].qMatrix[0][2].qText;
+	  /*var measureName3 = hc.qMeasureInfo[2].qFallbackTitle.substr(0, 13) + tooLong + hc.qDataPages[0].qMatrix[0][2].qText;
           var value3 = hc.qDataPages[0].qMatrix[0][2].qNum;
 	  
 	  var measureName4 = hc.qMeasureInfo[3].qFallbackTitle.substr(0, 13) + tooLong + hc.qDataPages[0].qMatrix[0][3].qText;
-          var value4 = hc.qDataPages[0].qMatrix[0][3].qNum; 
+          var value4 = hc.qDataPages[0].qMatrix[0][3].qNum; */
         }
 
 
         //couleur arc 1 et 2
         var colorAcr1 = layout.Arc1.color;
         var colorAcr2 = layout.Arc2.color;
-        var colorAcr3 = layout.Arc3.color;
-        var colorAcr4 = layout.Arc4.color;
+        /*var colorAcr3 = layout.Arc3.color;
+        var colorAcr4 = layout.Arc4.color;*/
 
         var iconGauge = layout.iconGauge;
         //Création de la jauge
