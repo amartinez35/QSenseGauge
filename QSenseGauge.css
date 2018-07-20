@@ -54,3 +54,12 @@
     display: block;
     margin: 0;
 }
+
+.icon-image-excelcio {
+  color: transparent;
+  background-image: url("./excelcio_svg_logo_sigle.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 13px;
+  z-index: 50;
+}

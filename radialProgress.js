@@ -63,7 +63,6 @@ function radialProgress(parent, width, height, colors, image, labelOK) {
     .startAngle(0 * (Math.PI / _radians))
     .endAngle(0); //just radians
 
-
   _selection = d3.select(parent);
 
 
@@ -320,12 +319,6 @@ function radialProgress(parent, width, height, colors, image, labelOK) {
     _duration = _;
     return component;
   };
-
-  component.onClick = function(_) {
-    if (!arguments.length) return _mouseClick;
-    _mouseClick = _;
-    return component;
-  }
 
   return component;
 
