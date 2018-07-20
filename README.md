@@ -34,7 +34,7 @@ You can add 2 measures, change limits, colors and add image.
   <li>Change color (Qlik Sense color picker)</li>
   <li>Add an image</li>
   <li>Enable/disable numbers</li>
-  <li>Run on Qlik Sense >= 2.2</li>
+  <li>Run on Qlik Sense >= april 2018</li>
   <li>Export as an image</li>
 </ul>
 
