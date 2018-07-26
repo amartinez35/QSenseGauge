@@ -36,10 +36,12 @@ You can add 2 measures, change limits, colors and add image.
   <li>Enable/disable numbers</li>
   <li>Run on Qlik Sense >= april 2018</li>
   <li>Export as an image</li>
+  <li>Qlik NPrinting >= April 2018</li> 
 </ul>
 
 <h3>Changelog</h3>
 <ul>
+  <li>1.3 improvements  /li>
   <li>1.0.2 Display label by default </li>
   <li>1.0.1 Use Qlik Sense format</li>
 </ul>
