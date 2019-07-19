@@ -144,7 +144,7 @@ define(["./radialProgress", "./d3.min", "css!./QSenseGauge.css", "qlik"],
               Colors: {
                 ref: "Color",
                 type: "items",
-                label: "Dispaly",
+                label: "Display",
                 items: {
                   Colors1: ColorArc1,
                   Colors2: ColorArc2,
